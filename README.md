@@ -5,6 +5,6 @@ Currently everything is just in a single script - I may split things up if it gr
 
   ./bin/addArt.py
   
-And it will query the iTunes store to find album artwork for any m4a audio files in the execution dir.  If the query fails, it will fall back on searching for any jpeg files in the same dir.  Any artwork it finds is embedded as metadata inside the audio files.  This is the most reliable way of having ncie album art across different audio players :)
+And it will query the iTunes store to find album artwork for any m4a audio files in the execution dir.  If the query fails, it will fall back on searching for any jpeg files in the same dir.  Any artwork it finds is embedded as metadata inside the audio files.  This is the most reliable way of having nice album art across different audio players :)
 
 
