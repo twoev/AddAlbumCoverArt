@@ -29,7 +29,7 @@ def searchITunes(path):
 
   # Get the album and artists meta data fields
   album = str(tracks[0].tags["\xa9alb"][0])
-  artist =str(tracks[0].tags["\xa9ART"][0])
+  artist tracks[0].tags["\xa9ART"][0].encode('utf-8').strip()
   # Some artists metadata contains annoying "featuring" blah
   # In these cases, try to remove the feat part
   # Not 100% robust, there may be weird cases I haven't thought of!
